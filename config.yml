@@ -1,0 +1,17 @@
+# Configuration Pacta Agent
+api:
+  url: "http://localhost:8000"
+  key: ""
+
+proxy:
+  port: 8080
+
+detectors:
+  email: true
+  phone: true
+  iban: true
+  social_security: true
+  internal_ip: true
+
+log:
+  level: "INFO"
