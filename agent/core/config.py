@@ -8,7 +8,7 @@ from pydantic import BaseModel
 
 class ApiConfig(BaseModel):
     url: str = "http://localhost:8000"
-    key: str = ""
+    enrollment_token: str = ""  # token généré depuis la console Pacta
 
 
 class ProxyConfig(BaseModel):

@@ -1,8 +1,8 @@
 # Configuration Pacta Agent
 api:
   url: "http://localhost:8000"
-  # Générez un token depuis la console Pacta > Agents > "Enrôler un agent"
-  enrollment_token: ""
+  email: "votre@email.com"
+  password: "votre_mot_de_passe"
 
 proxy:
   port: 8080
